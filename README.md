@@ -17,3 +17,23 @@ The project requires Python 3.9 or 3.10 and these Python libraries:
 FastAPI: pip install fastapi<br>
 Uvicorn (ASGI server for FastAPI): pip install uvicorn<br>
 Web3.py (Python library for blockchain interactions): pip install web3<br>
+
+For the blockchain environment:
+
+Hardhat: npm install --save-dev hardhat<br>
+
+## Configure FastAPI and Web3.py
+I created main.py file in a local folder using VS Code and I already created an environment (in my case a conda environment) with Python 3.12.2.
+
+## Run the FastAPI Server
+In terminal, run: uvicorn main:app --reload<br>
+It should show the following address: http://127.0.0.1:8000
+
+## Test the API
+1- Access the API Documentation: http://127.0.0.1:8000/docs<br>
+2- Test the /add_liquidity Endpoint, by Try Out, for example using:<br>
+user_id: A user identifier (e.g., "user1234")<br>
+token_a_amount: Amount of token A to add to liquidity<br>
+token_b_amount: Amount of token B to add to liquidity<br>
+
+
