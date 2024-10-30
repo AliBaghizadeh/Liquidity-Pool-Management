@@ -7,13 +7,13 @@ This project aims to create a backend API for interacting with a decentralized f
 ## Objective
 The primary goal of this project is to create a set of backend endpoints to:
 
-1- Connect to a test blockchain (local Hardhat network).
-2- Add liquidity to a simulated liquidity pool.
-3- Retrieve transaction details and ensure blockchain interactions are successful.
+1- Connect to a test blockchain (local Hardhat network).<br>
+2- Add liquidity to a simulated liquidity pool.<br>
+3- Retrieve transaction details and ensure blockchain interactions are successful.<br>
 
 ## Libraries and Dependencies
 The project requires Python 3.9 or 3.10 and these Python libraries:
 
-FastAPI: pip install fastapi
-Uvicorn (ASGI server for FastAPI): pip install uvicorn
-Web3.py (Python library for blockchain interactions): pip install web3
+FastAPI: pip install fastapi<br>
+Uvicorn (ASGI server for FastAPI): pip install uvicorn<br>
+Web3.py (Python library for blockchain interactions): pip install web3<br>
