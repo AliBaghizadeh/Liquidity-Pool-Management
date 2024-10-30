@@ -24,7 +24,7 @@ For the blockchain environment:
 
 ## Hardhat for a Local Blockchain
 
-1- Initialize Hardhat: npx hardhat<br>
+1- Open a terminal and Initialize Hardhat: npx hardhat<br>
 Choose “Create a JavaScript project” and follow the prompts to set up a basic Hardhat environment.<br>
 Note that the terminal shows several Accounts and Private Keys. I used one of them in the main.py file for variables: sender_address and private_key. 
 
@@ -34,7 +34,7 @@ Note that the terminal shows several Accounts and Private Keys. I used one of th
 I created main.py file in a local folder using VS Code and I already created an environment (in my case a conda environment) with Python 3.12.2.
 
 ## Run the FastAPI Server
-In the terminal, run: uvicorn main:app --reload<br>
+Open a new terminal, and run: uvicorn main:app --reload<br>
 It should show the following address: http://127.0.0.1:8000
 
 ## Test the API
