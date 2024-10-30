@@ -26,7 +26,7 @@ For the blockchain environment:
 
 1- Initialize Hardhat: npx hardhat<br>
 Choose “Create a JavaScript project” and follow the prompts to set up a basic Hardhat environment.<br>
-Note that the terminal shows a few Account and Private Key, which I have used one of them in the main.py file for variables: sender_address and private_key. 
+Note that the terminal shows several Accounts and Private Keys. I used one of them in the main.py file for variables: sender_address and private_key. 
 
 2- Start the Hardhat Node: npx hardhat node<br>
 
@@ -40,12 +40,21 @@ It should show the following address: http://127.0.0.1:8000
 ## Test the API
 1- Access the API Documentation: http://127.0.0.1:8000/docs<br>
 
-2- Test the /add_liquidity Endpoint, by Try Out, for example using:<br>
+2- Test the /add_liquidity Endpoint, by Try It Out, for example by changing values of the following entries and Execute:<br>
 user_id: A user identifier (e.g., "user1234")<br>
 token_a_amount: Amount of token A to add to liquidity<br>
 token_b_amount: Amount of token B to add to liquidity<br>
 
 3- Expected response: A successful response should return a JSON object with the transaction details, including transaction_id and status.
+	
+Example of Response body:
 
+{
+  "message": "Added liquidity for user user1234",
+  "token_a_amount": 200,
+  "token_b_amount": 100,
+  "transaction_id": "1965a228af704f1ce3f16ac1dd702280f45ad0f6ae25bc5848005debbdd32944",
+  "status": 1
+}
 
 
