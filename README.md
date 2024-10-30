@@ -49,12 +49,12 @@ token_b_amount: Amount of token B to add to liquidity<br>
 	
 Example of Response body:
 
-{
-  "message": "Added liquidity for user user1234",
-  "token_a_amount": 200,
-  "token_b_amount": 100,
-  "transaction_id": "1965a228af704f1ce3f16ac1dd702280f45ad0f6ae25bc5848005debbdd32944",
-  "status": 1
+{<br>
+  "message": "Added liquidity for user user1234",<br>
+  "token_a_amount": 200,<br>
+  "token_b_amount": 100,<br>
+  "transaction_id": "1965a228af704f1ce3f16ac1dd702280f45ad0f6ae25bc5848005debbdd32944",<br>
+  "status": 1<br>
 }
 
 
