@@ -57,4 +57,18 @@ Example of Response body:
   "status": 1<br>
 }
 
+And here is a typical message one can find in the redhat terminal which was open along with FastAPI terminal:
+
+web3_clientVersion<br>
+eth_getTransactionCount<br>
+eth_sendRawTransaction<br>
+  Transaction: 0x1965a228af704f1ce3f16ac1dd702280f45ad0f6ae25bc5848005debbdd32944<br>
+  From:        0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266<br>
+  To:          0x70997970c51812dc3a010c7d01b50e0d17dc79c8<br>
+  Value:       300. ETH<br>
+  Gas used:    21000 of 21000<br>
+  Block #1:    0x24e65e160357112266a9523c85d9b4a74cbc92854ea2c6bf604d1b9c1e3971cc<br>
+
+eth_getTransactionReceipt
+
 
