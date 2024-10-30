@@ -14,13 +14,13 @@ The primary goal of this project is to create a set of backend endpoints to:
 ## Libraries and Dependencies
 The project requires Python 3.9 or 3.10 and these Python libraries:
 
-FastAPI: pip install fastapi<br>
-Uvicorn (ASGI server for FastAPI): pip install uvicorn<br>
-Web3.py (Python library for blockchain interactions): pip install web3<br>
+***FastAPIr***: pip install fastapi<br>
+***Uvicorn*** (ASGI server for FastAPI): pip install uvicorn<br>
+***Web3.py*** (Python library for blockchain interactions): pip install web3<br>
 
 For the blockchain environment:
 
-Hardhat: npm install --save-dev hardhat<br>
+***Hardhat***: npm install --save-dev hardhat<br>
 
 ## Hardhat for a Local Blockchain
 
