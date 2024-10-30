@@ -22,6 +22,13 @@ For the blockchain environment:
 
 Hardhat: npm install --save-dev hardhat<br>
 
+## Hardhat for a Local Blockchain
+
+1- Initialize Hardhat: npx hardhat<br>
+Choose “Create a JavaScript project” and follow the prompts to set up a basic Hardhat environment.<br>
+
+2- Start the Hardhat Node: npx hardhat node<br>
+
 ## Configure FastAPI and Web3.py
 I created main.py file in a local folder using VS Code and I already created an environment (in my case a conda environment) with Python 3.12.2.
 
@@ -31,9 +38,13 @@ It should show the following address: http://127.0.0.1:8000
 
 ## Test the API
 1- Access the API Documentation: http://127.0.0.1:8000/docs<br>
+
 2- Test the /add_liquidity Endpoint, by Try Out, for example using:<br>
 user_id: A user identifier (e.g., "user1234")<br>
 token_a_amount: Amount of token A to add to liquidity<br>
 token_b_amount: Amount of token B to add to liquidity<br>
+
+3- Expected response: A successful response should return a JSON object with the transaction details, including transaction_id and status.
+
 
 
